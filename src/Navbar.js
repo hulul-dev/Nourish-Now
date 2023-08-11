@@ -1,7 +1,13 @@
 import React from "react";
-import { FaHome, FaInfo, FaUser } from "react-icons/fa";
-import {IoBag} from "react-icons/io5";
 import "./Navbar.css";
+import logo from "./images/logo.png";
+import about from "./images/About.jpeg";
+import img1 from "./images/HealthMix.jpg";
+import img2 from "./images/Rawa.JPG";
+import img3 from "./images/shikakai.png";
+
+// import { FaHome, FaInfo, FaUser } from "react-icons/fa";
+// import {IoBag} from "react-icons/io5";
 
 const Navbar = () => {
   return (
@@ -9,10 +15,11 @@ const Navbar = () => {
     <header className="text-gray-600 body-font">
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"/>
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+    <img alt="content" className="w-35 h-20 text-white p-2"  src={logo}/>
+      {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg>
-      <span className="ml-3 text-xl">Tailblocks</span>
+      </svg> */}
+      {/* <span className="ml-3 text-xl">Tailblocks</span> */}
     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
       <a className="mr-5 hover:text-gray-900">Home</a>
       <a className="mr-5 hover:text-gray-900">About Us</a>
@@ -53,12 +60,15 @@ const Navbar = () => {
   <div className="container px-5 py-24 mx-auto flex flex-col" >
     <div className="lg:w-4/6 mx-auto">
       <div className="rounded-lg h-64 overflow-hidden">
-        <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500"/>
+        <img alt="content" className="object-cover object-center h-full w-full" src="https://images.unsplash.com/photo-1539902743451-20dfa0a92ffd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"/>
       </div>
       <div className="flex flex-col sm:flex-row mt-10">
         <div className="sm:w-4/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-          <p className="leading-relaxed text-lg mb-4">Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party..</p>
-        </div>
+          <p className="leading-relaxed text-lg mb-4">Welcome to Asha's Organics - Your Source for Premium Organic Products!</p>
+          <p>
+            At Asha's Organics, we believe in the power of nature to provide us with the finest ingredients for a healthy and vibrant life. Our commitment to organic farming and sustainable practices drives us to bring you a curated selection of the highest quality organic products. Whether you're seeking nourishing foods, rejuvenating skincare, or eco-friendly household essentials, we have something for everyone who values a natural lifestyle.
+          </p>
+          </div>
       </div>
     </div>
   </div>
@@ -66,11 +76,10 @@ const Navbar = () => {
     <section className="body-font overflow-hidden text-gray-600" data-aos="zoom-in" data-aos-delay="400">
   <div className="container mx-auto px-5 py-24">
     <div className="mx-auto flex flex-wrap lg:w-4/5">
-      <img alt="ecommerce" className="h-64 w-full rounded object-cover object-center lg:h-auto lg:w-1/2" src="https://dummyimage.com/400x400" />
+      <img alt="ecommerce" className="h-64 w-full rounded object-cover object-center lg:h-auto lg:w-1/2" src={about} />
       <div className="mt-6 w-full lg:mt-0 lg:w-1/2 lg:py-6 lg:pl-10">
-        <h2 className="title-font text-sm tracking-widest text-gray-500">BRAND NAME</h2>
-        <h1 className="title-font mb-1 text-3xl font-medium text-gray-900">The Catcher in the Rye</h1>
-        <p className="leading-relaxed">Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean shorts keytar banjo tattooed umami cardigan.</p>
+      <h1 className="title-font mb-1 text-3xl font-medium text-gray-900">About Asha's Organics</h1>
+        <p className="leading-relaxed">At Asha's Organics, we're more than just a brand - we're a philosophy, a way of life that celebrates the harmony between humans and nature. Our story began with a deep-rooted passion for organically grown produce and a desire to share the incredible benefits of these gifts from the earth.</p>
       </div>
     </div>
   </div>
@@ -80,27 +89,27 @@ const Navbar = () => {
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog"/>
+          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={img1} alt="blog"/>
           <div className="p-6">
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Health Mix Powder</h1>
             <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
           </div>
         </div>
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog"/>
+          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={img2} alt="blog"/>
           <div className="p-6">
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Rawa Idly/Dosa Powder</h1>
             <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
           </div>
         </div>
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog"/>
+          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={img3} alt="blog"/>
           <div className="p-6">
-            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
+            <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shikakai Powder</h1>
             <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
           </div>
         </div>
@@ -173,13 +182,15 @@ const Navbar = () => {
   <div className="bg-gray-100">
     <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
         </svg>
-        <span className="ml-3 text-xl">Tailblocks</span>
+        <span className="ml-3 text-xl">Tailblocks</span> */}
+         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"/>
+    <img alt="content" className="w-35 h-20 text-white p-2"  src={logo}/>
       </a>
-      <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2020 Tailblocks —
-        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@knyttneve</a>
+      <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© Asha's Organics —
+        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@think_zuber</a>
       </p>
     </div>
   </div>
