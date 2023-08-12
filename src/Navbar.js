@@ -1,10 +1,10 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../public/images/logo.png";
-import about from "../public/images/About.jpeg";
-import img1 from "../public/images/HealthMix.jpg";
-import img2 from "../public/images/Rawa.JPG";
-import img3 from "../public/images/shikakai.png";
+import logo from "./images/logo.png";
+import about from "./images/About.jpeg";
+import img1 from "./images/HealthMix.jpg";
+import img2 from "./images/Rawa.JPG";
+import img3 from "./images/shikakai.png";
 
 // import { FaHome, FaInfo, FaUser } from "react-icons/fa";
 // import {IoBag} from "react-icons/io5";
