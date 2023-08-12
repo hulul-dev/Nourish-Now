@@ -15,7 +15,7 @@ const Navbar = () => {
     <header className="text-gray-600 body-font">
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"/>
-    <img alt="content" className="w-35 h-20 text-white p-2"  src={logo}/>
+    <img alt="content" className="w-35 h-20 text-white p-2"  src='https://raw.githubusercontent.com/hulul-dev/Build-Nourish/develop/images/logo.png'/>
       {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
       </svg> */}
@@ -76,7 +76,7 @@ const Navbar = () => {
     <section className="body-font overflow-hidden text-gray-600" data-aos="zoom-in" data-aos-delay="400">
   <div className="container mx-auto px-5 py-24">
     <div className="mx-auto flex flex-wrap lg:w-4/5">
-      <img alt="ecommerce" className="h-64 w-full rounded object-cover object-center lg:h-auto lg:w-1/2" src='https://raw.githubusercontent.com/hulul-dev/Build-Nourish/develop/images/About.jpeg' />
+      <img alt="ecommerce" className="h-64 w-full rounded object-cover object-center lg:h-auto lg:w-1/2" src='static/media/About.1a24f298059e4a3db912.jpeg' />
       <div className="mt-6 w-full lg:mt-0 lg:w-1/2 lg:py-6 lg:pl-10">
       <h1 className="title-font mb-1 text-3xl font-medium text-gray-900">About Asha's Organics</h1>
         <p className="leading-relaxed">At Asha's Organics, we're more than just a brand - we're a philosophy, a way of life that celebrates the harmony between humans and nature. Our story began with a deep-rooted passion for organically grown produce and a desire to share the incredible benefits of these gifts from the earth.</p>
@@ -89,7 +89,7 @@ const Navbar = () => {
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={img1} alt="blog"/>
+          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src= 'https://raw.githubusercontent.com/hulul-dev/Build-Nourish/develop/images/HealthMix.jpg' alt="blog"/>
           <div className="p-6">
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Health Mix Powder</h1>
             <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
@@ -98,7 +98,7 @@ const Navbar = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={img2} alt="blog"/>
+          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src= 'https://raw.githubusercontent.com/hulul-dev/Build-Nourish/develop/images/Rawa.JPG' alt="blog"/>
           <div className="p-6">
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Rawa Idly/Dosa Powder</h1>
             <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
@@ -107,7 +107,7 @@ const Navbar = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={img3} alt="blog"/>
+          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src= 'https://raw.githubusercontent.com/hulul-dev/Build-Nourish/develop/images/shikakai.png' alt="blog"/>
           <div className="p-6">
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Shikakai Powder</h1>
             <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
@@ -187,7 +187,7 @@ const Navbar = () => {
         </svg>
         <span className="ml-3 text-xl">Tailblocks</span> */}
          <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"/>
-    <img alt="content" className="w-35 h-20 text-white p-2"  src={logo}/>
+    <img alt="content" className="w-35 h-20 text-white p-2"  src= 'https://raw.githubusercontent.com/hulul-dev/Build-Nourish/develop/images/logo.png'/>
       </a>
       <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© Asha's Organics —
         <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@think_zuber</a>
