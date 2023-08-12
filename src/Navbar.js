@@ -76,7 +76,7 @@ const Navbar = () => {
     <section className="body-font overflow-hidden text-gray-600" data-aos="zoom-in" data-aos-delay="400">
   <div className="container mx-auto px-5 py-24">
     <div className="mx-auto flex flex-wrap lg:w-4/5">
-      <img alt="ecommerce" className="h-64 w-full rounded object-cover object-center lg:h-auto lg:w-1/2" src={about} />
+      <img alt="ecommerce" className="h-64 w-full rounded object-cover object-center lg:h-auto lg:w-1/2" src='https://raw.githubusercontent.com/hulul-dev/Build-Nourish/develop/images/About.jpeg' />
       <div className="mt-6 w-full lg:mt-0 lg:w-1/2 lg:py-6 lg:pl-10">
       <h1 className="title-font mb-1 text-3xl font-medium text-gray-900">About Asha's Organics</h1>
         <p className="leading-relaxed">At Asha's Organics, we're more than just a brand - we're a philosophy, a way of life that celebrates the harmony between humans and nature. Our story began with a deep-rooted passion for organically grown produce and a desire to share the incredible benefits of these gifts from the earth.</p>
